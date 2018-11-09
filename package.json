@@ -1,0 +1,22 @@
+{
+  "name": "verificationbot",
+  "version": "1.0.0",
+  "description": "A verification bot written in JavaScript using the Discord.js library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowolfyt/VerificationBot.git"
+  },
+  "author": "shadowolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadowolfyt/VerificationBot/issues"
+  },
+  "homepage": "https://github.com/shadowolfyt/VerificationBot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
