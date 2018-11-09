@@ -39,7 +39,7 @@ client.on('message', (message) => {
   if (commandfile) commandfile.run(client, message, args);
 });
 
-//client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
 
-const privatekey = require('./privatekey.json'); // Used for local development
-client.login(privatekey.token); // Used for local development
+//const privatekey = require('./privatekey.json'); // Used for local development
+//client.login(privatekey.token); // Used for local development
